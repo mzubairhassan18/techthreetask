@@ -1,0 +1,62 @@
+.private-key-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff1a;
+  padding: 24px 28px;
+  gap: 26px;
+}
+
+.private-key-container h3 {
+  margin: 0;
+  color: white;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  letter-spacing: 0.075em;
+  text-align: center;
+}
+
+.private-key-container input {
+  background: #0000004d;
+  border: 0;
+  box-shadow: none;
+  width: 793px;
+  height: 64px;
+  /* top: 442px; */
+  /* left: 564px; */
+  /* gap: 0px; */
+  border-radius: 5px 0px 0px 0px;
+  color: #ffffff80;
+  padding: 0 30px;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  letter-spacing: 0.005em;
+  text-align: left;
+}
+
+.private-key-container button {
+  width: 183px;
+  height: 42px;
+  top: 526px;
+  left: 869px;
+  gap: 0px;
+  border-radius: 2px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #ffffff1a;
+  background: #ffffff1a;
+  color: white;
+  font-family: "IBM Plex Mono";
+  /* font-size: 30px; */
+  font-family: IBM Plex Mono;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+  letter-spacing: 0.075em;
+  text-align: center;
+}

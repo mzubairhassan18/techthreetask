@@ -1,0 +1,107 @@
+.swap-dashboard-container {
+  display: flex;
+  gap: 28px;
+}
+
+.dashboard-left-container,
+.dashboard-right-container {
+  width: 305px;
+  height: 488px;
+  top: 145px;
+  left: 380px;
+  gap: 0px;
+  border-radius: 2px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  background: #ffffff13;
+  color: white;
+  font-family: "IBM Plex Mono";
+}
+
+.dashboard-left-container-section.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-left-container-section.header div {
+  text-align: right;
+}
+.dashboard-left-container h3,
+.dashboard-left-container p,
+.dashboard-right-container h3,
+.dashboard-right-container p {
+  margin: 0;
+}
+
+.dashboard-left-container-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #ffffff13;
+}
+
+.dashboard-left-container-section > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard-left-container-section > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  align-items: end;
+}
+
+.dashboard-left-container-section .image-wrapper {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-right-container-header {
+  padding: 10px;
+  font-family: "Jost";
+}
+.dashboard-right-container-list-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #ffffff13;
+}
+
+.dashboard-right-container-list {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 17px;
+}
+
+.dashboard-right-container-list-item {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+  padding-bottom: 23px;
+  border-bottom: 1px solid #ffffff13;
+}
+
+.dashboard-right-container-list-item > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.dashboard-right-container-list-item span {
+  background: #51ff9f26;
+  padding: 0 13px;
+  border-radius: 50px;
+  color: #51ff9f;
+}
+
+.dashboard-right-container-list-item > div > p:nth-child(1) {
+  font-weight: 500;
+}
