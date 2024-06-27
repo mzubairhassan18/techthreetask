@@ -1,15 +1,10 @@
-page-top-logo {
-}
-
-.container {
+.generate-key-container {
   width: 511px;
   height: 488px;
   top: 162px;
   left: 705px;
   gap: 0px;
-  border-radius: 2px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
+  border-radius: 2px;
   background: #ffffff13;
   padding: 0px 18px;
 }
@@ -56,13 +51,10 @@ page-top-logo {
   top: 183px;
   left: 732px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .container-body {
   gap: 0px;
-  /* border-radius: 2px 0px 0px 0px; */
-  opacity: 0px;
   background: #131229;
   padding: 20px;
   height: calc(100% - 113px);

@@ -5,6 +5,7 @@ import PrivateKeyForm from "./components/PrivateKeyForm";
 import SwapDashboard from "./components/SwapDashboard";
 import { useState } from "react";
 import Vector from "./images/Vector.png";
+
 function App() {
   const [step, setStep] = useState(1);
 
@@ -15,11 +16,10 @@ function App() {
   return (
     <div className="App">
       <img className="page-top-logo" src={Vector} />
-      <AnimatePresence>
-        {step === 1 && <GeneratePrivateKey key="comp1" next={nextStep} />}
-        {step === 2 && <PrivateKeyForm key="comp2" next={nextStep} />}
-        {step === 3 && <SwapDashboard key="comp3" />}
-      </AnimatePresence>
+
+      {step === 1 && <GeneratePrivateKey key="comp1" next={nextStep} />}
+      {step === 2 && <PrivateKeyForm key="comp2" next={nextStep} />}
+      {step === 3 && <SwapDashboard key="comp3" />}
     </div>
   );
 }
