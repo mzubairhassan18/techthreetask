@@ -13,7 +13,7 @@ const SwapDashboard = () => {
           <h3 style={{ fontFamily: "Jost" }}>Holdings</h3>
           <div>
             <p style={{ fontFamily: "Jost" }}>$1,125</p>
-            <p>Estimated Value</p>
+            <p style={{ color: "#FFFFFF80" }}>Estimated Value</p>
           </div>
         </div>
         <div className="dashboard-left-container-section">
